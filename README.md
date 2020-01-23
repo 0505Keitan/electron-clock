@@ -10,7 +10,7 @@
 2. Run `npm install`.
 3. Run `npm install electron --save-dev`.
 4. Run `npm install electron-builder --save-dev`.
-5. Run `npm run pack:mac`.
+5. Run `npm run pack:osx`.
 
 ## Reference
  - [Electronで作成したアプリから、WindowsやmacOS向けのインストーラを作成する最新方法](https://bugttle.blogspot.com/2016/12/electron-buildersample.html)
