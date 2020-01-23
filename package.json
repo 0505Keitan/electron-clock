@@ -1,0 +1,33 @@
+{
+  "name": "clock",
+  "version": "1.0.0",
+  "description": "Simple clock",
+  "main": "index.js",
+  "scripts": {
+    "pack:osx": "./node_modules/.bin/electron-builder --mac --x64"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0505Keitan/electron-clock.git"
+  },
+  "author": "0505Keitan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0505Keitan/electron-clock/issues"
+  },
+  "homepage": "https://github.com/0505Keitan/electron-clock#readme",
+  "build": {
+    "appId": "com.0505Keitan.clock",
+    "mac": {
+      "target": "dmg"
+    },
+    "directories": {
+      "output": "dist"
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^7.1.10",
+    "electron-builder": "^22.2.0"
+  }
+}

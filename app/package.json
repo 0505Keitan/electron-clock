@@ -1,0 +1,10 @@
+{
+  "name": "clock",
+  "version": "1.0.0",
+  "author": "0505Keitan",
+  "description": "Simple Clock",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
